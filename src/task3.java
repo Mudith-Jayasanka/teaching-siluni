@@ -12,6 +12,7 @@ public class task3 {
             System.out.println("Too small to do shit you lil kid");
 
         }
+        System.out.println("end");
 
         //TASK COMPLETE - NO ISSUES
     }
