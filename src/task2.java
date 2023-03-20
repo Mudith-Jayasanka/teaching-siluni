@@ -14,5 +14,6 @@ public class task2 {
         sum = num1 + num2;
         System.out.println("The sum of these two numbers = "+sum);
 
+        //TASK COMPLETE - NO ISSUES
     }
 }

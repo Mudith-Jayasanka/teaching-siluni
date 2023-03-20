@@ -8,6 +8,7 @@ public class task1{
         String name = input.nextLine();
         System.out.println("Your name is "+ name);
 
+        //TASK COMPLETE - NO ISSUES
     }
 
 }
