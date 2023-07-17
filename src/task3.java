@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//TASK COMPLETE - NO ISSUES
+
 public class task3 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -14,6 +16,6 @@ public class task3 {
         }
         System.out.println("end");
 
-        //TASK COMPLETE - NO ISSUES
+
     }
 }

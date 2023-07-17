@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//TASK COMPLETE - NO ISSUES
+
 public class task2 {
     public static void main(String[] args){
         double num1,num2,sum;
@@ -14,6 +16,5 @@ public class task2 {
         sum = num1 + num2;
         System.out.println("The sum of these two numbers = "+sum);
 
-        //TASK COMPLETE - NO ISSUES
     }
 }

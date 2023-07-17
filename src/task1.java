@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//TASK COMPLETE - NO ISSUES
+
 public class task1{
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
@@ -8,7 +10,7 @@ public class task1{
         String name = input.nextLine();
         System.out.println("Your name is "+ name);
 
-        //TASK COMPLETE - NO ISSUES
+
     }
 
 }
