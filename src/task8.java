@@ -1,11 +1,27 @@
-
-
+import java.util.Scanner;
 
 public class task8 {
     public static void main(String[] args) {
 
+
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hi Baby!");
+        System.out.print("Please enter your msg : ");
+        String msg = input.next();
+
+        while (msg!="hi"){
+            System.out.println("Hi Baby!");
+            msg = input.next();
+        }
+        input.close();
+
+
+        }
     }
-}
+
+
 
 //When you run the program, it will greet you with the message "Hi Mudith" (or any other custom greeting you prefer).
 //You will then have the option to enter a message of your choice.

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class task9 {
     public static void main(String[] args) {
@@ -9,6 +10,28 @@ public class task9 {
         numbers.add(1);
         numbers.add(9);
         numbers.add(3);
+
+        System.out.println(numbers);
+
+       int largest= numbers.get(0);
+       int smallest= numbers.get(0);
+
+       for (int i =1;i< numbers.size();i++) {
+           if (numbers.get(i) > largest) {
+               largest = numbers.get(i);
+           }
+       }
+
+        for (int i =1;i< numbers.size();i++) {
+            if (numbers.get(i) < smallest) {
+                smallest = numbers.get(i);
+            }
+        }
+
+        System.out.println("Largest number is :" + largest );
+        System.out.println("Smallest number is : " + smallest);
+
+
 
         //Continue Program
     }
