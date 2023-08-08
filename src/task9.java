@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
+//TASK COMPLETE - NO ISSUES
+
 public class task9 {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -20,13 +22,10 @@ public class task9 {
            if (numbers.get(i) > largest) {
                largest = numbers.get(i);
            }
+           if (numbers.get(i) < smallest) {
+               smallest = numbers.get(i);
+           }
        }
-
-        for (int i =1;i< numbers.size();i++) {
-            if (numbers.get(i) < smallest) {
-                smallest = numbers.get(i);
-            }
-        }
 
         System.out.println("Largest number is :" + largest );
         System.out.println("Smallest number is : " + smallest);

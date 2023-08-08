@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//TASK COMPLETE - NO ISSUES
+
 public class task6 {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
